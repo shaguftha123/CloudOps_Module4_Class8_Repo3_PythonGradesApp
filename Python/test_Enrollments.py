@@ -8,7 +8,7 @@ enrollments = Enrollments()
 
 def testBulkLoadEnrollments():
     enrollments.allEnrollments.clear()
-    assert enrollments.bulkLoad() == 11
+    assert enrollments.bulkLoad() == 10
 
 def testAddOneEnrollment():
     enrollment = Enrollment(1, 2, 3)
