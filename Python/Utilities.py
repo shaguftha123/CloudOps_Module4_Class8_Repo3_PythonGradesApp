@@ -10,4 +10,4 @@ class Utilities:
             pytest = True
         else:
             pytest = False
-        return pytest
+        return True
